@@ -7,16 +7,22 @@ body {
     font-weight: 350;
     font-style: italic;
     background-color: #CFB997;
-    padding-right: 3000px;
     color: #2F3020;
-    width: 300px;
+    width: 510px;
     text-align: center;
-    margin-left: 15px;
-    font-size: 36px;
+    margin: 15px
+
+}
+
+.head {
+    text-align: center;
+    
 }
 
 .cover {
-    text-align: center;
+    text-align: left;
+    margin: 15px;
+    width: 510px;
 }
 
 .meat {
@@ -25,7 +31,7 @@ body {
 
 #return {
     font-family: "Unbounded", sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
 

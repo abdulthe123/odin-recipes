@@ -9,14 +9,17 @@ body {
     font-weight: 350;
     font-style: italic;
     background-color: #CFB997;
-    padding-right: 3000px;
     color: #2F3020;
-    width: 215px;
+    width: 510px;
     text-align: center;
-    margin-left: 15px;
+    margin: 15px auto 25px;
 
 }
 
+.head {
+    text-align: center;
+    margin: auto;
+}
 .intro {
     font-family: "Unbounded", sans-serif;
     text-align: center;
