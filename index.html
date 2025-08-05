@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah's Recipes</title>
+    <link rel="stylesheet" href="../odin-recipes/design/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <h1 style="color: brown;">Abdullah's Recipes</h1>
-     <p>This is a small website I designed that contains 3 delicious recipes. 
-     <br>I only built this site to practice my HTML skills.</p>
-        <a href="recipes/steak.html" style="color:hwb(199 2% 32%); font-size: 35px;">How to Make Steak</a>
-        <br><br>
-    <img src="images/steak.jpg" height="310" width="410">
-    <br><br>
-        <a href="recipes/salmon.html" style="color:hwb(199 2% 32%); font-size: 35px;">How to Make Salmon</a>
-        <br><br>
-    <img src="images/salmon.jpeg" height="310" width="510">
-    <br><br>
-    <a href="recipes/ramen.html" style="color:hwb(199 2% 32%); font-size: 35px;">How to Make Ramen</a>
-        <br><br>
-    <img src="images/ramen.jpg" height="310" width="410">
-    <p><em>Full disclosure: All recipes were provided by ChatGPT</em></p>
+    <div>
+    <h1 class="main-title">Abdullah's Recipes</h1> 
+    </div>
+     <p class="intro">This is a small website I designed that contains 3 delicious recipes. 
+     <br>I only built this site to practice my HTML skills along with css.</p>
+
+        <div class="steak-recipe">
+            <a href="recipes/steak.html">How to Make Steak</a>
+        </div>
+            <div class="steak-pic">
+                <img src="images/steak.jpg" height="310" width="410"></div>
+        
+
+        <div class="steak-recipe">
+            <a href="recipes/salmon.html">How to Make Salmon</a></div>
+            <div class="steak-pic">
+            <img src="images/salmon.jpeg" height="310" width="410"></div>
+        
+
+        <div class="steak-recipe">
+            <a href="recipes/ramen.html">How to Make Ramen</a></div>
+            <div class="steak-pic">
+            <img src="images/ramen.jpg" height="310" width="410"></div>
+        
+
+    <p class="intro" id="end">Full disclosure: All recipes were provided by ChatGPT</p>
 </body>
 </html>

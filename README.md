@@ -1,1 +1,5 @@
 This is my first project I am working on. I will be building a basic website to test my html skills and see how I am learning and progressing.
+
+* {
+    border: 1px solid black;
+}
